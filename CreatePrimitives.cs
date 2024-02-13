@@ -13,7 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0.5f, 2, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(-0.5f, 2, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0, 3, 0);
-        //в начале игры будет создана фигура, напоминающую Стива из Minecraft!
+        //At the beginning of the game, a figure resembling Steve from Minecraft will be created!
     }
 
     // Update is called once per frame
